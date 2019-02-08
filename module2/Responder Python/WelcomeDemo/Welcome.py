@@ -19,22 +19,28 @@ lname = input("May I know your last name please?\n")
 gen = input("May I know your Gender Please\n")
 
 if gen== "MALE" or "male" :
-
+    
+   
     mpname = input("May I know the name of the person whom you want to meet ?\n")
     wa_msg = '''Mr.{} is in meeting , Mr. {} {} please wait for the 5 minutes
     and enjoy the cup of cofee \n'''.format(mpname,fname,lname)
     print(wa_msg)
-    print("hi")
+     
+    
 elif gen == "FEMALE" or "female":
     
+    
     mpname = input("May I know the name of the person whom you want to meet ?\n")
     wa_msg = '''Mr.{} is in meeting , Mr. {} {} please wait for the 5 minutes
     and enjoy the cup of cofee \n'''.format(mpname,fname,lname)
     print(wa_msg)
-    print("hello")
-elif gen == ' ' :
+    
+    
+elif gen == '' :
+    
     
     print("please enter gender details")
+    
     
 else :
     
