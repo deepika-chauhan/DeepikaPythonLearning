@@ -18,7 +18,7 @@ fname = input("May I know your first name please?\n")
 lname = input("May I know your last name please?\n")
 gen = input("May I know your Gender Please\n")
 
-if gen== "MALE" or "male" :
+if gen== "MALE" or gen == "male" :
     
    
     mpname = input("May I know the name of the person whom you want to meet ?\n")
@@ -27,7 +27,7 @@ if gen== "MALE" or "male" :
     print(wa_msg)
      
     
-elif gen == "FEMALE" or "female":
+elif gen == "FEMALE" or gen == "female":
     
     
     mpname = input("May I know the name of the person whom you want to meet ?\n")
